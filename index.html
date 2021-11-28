@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/app.css" rel="stylesheet" />
+    <title>Charlotte Uden | Portfolio</title>
+</head>
+
+<body>
+
+    <!-- No defined header section -->
+
+    <!-- Main content goes here split into sections/fragments -->
+    <main>
+
+        <!-- Utilizes flexbox styling not taught in class -->
+        <section class="fragment fragment-one">
+            <div class="headers">
+                <h1> Charlotte Uden </h1>
+                <h3> Ecologist | Data Analyst | Other Cool Stuff </h3>
+            </div>
+
+            <div class="learn">
+
+                <!-- You could hyperlink this down with a smooth scroll -->
+                <p> learn more </p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </section>
+        <section class="fragment fragment-two">
+            <h2> Seeking New <br />Opportunities </h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+
+                        <!-- Edit this text with a brief intoduction / brand statement etc. -->
+                        <h5>
+                            Master’s candidate with experience in data management and data visualization. 
+                            Proven ability to self-teach skills such as: R, GIS, and NCO. Looking to continue to build on my practical experience 
+                            with a company focused on growth and innovation.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="learn">
+                <!-- You could hyperlink this down with a smooth scroll -->
+                <p> see why you should hire me </p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </section>
+        <section class="fragment fragment-three">
+            <h3>Things I've Made</h3>
+            <hr class="title-underline">
+            <div class="container carousel-container">
+
+                <!-- begin carousel -->
+                <!-- you should replace the placeholder images with actual images from your projects -->
+                <!-- images should be 800*600 or a matching ratio for best results -->
+                <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#portfolioCarousel" data-slide-to="0" class="active custom-indicator">
+                        </li>
+                        <li data-target="#portfolioCarousel" data-slide-to="1" class="custom-indicator"></li>
+                        <li data-target="#portfolioCarousel" data-slide-to="2" class="custom-indicator"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+
+                            <!--image here -->
+                            <img src="assets/images/map_upper_fire_prob.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Predicted Annual Fire Probability</h5>
+                                <p>Pre-Euro settlement fire frequency predicted by LPJ-GUESS, a dynamic global vegetation model.</p>
+                                <button class="btn btn-primary">View Code</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/point_fsm_meanlai_fire.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Sensitivity Analysis</h5>
+                                <p>vegetation change in resopnse to fire frequency and fire resiliance as predicted by LPJ-GUESS.</p>
+                                <button class="btn btn-primary">View Code</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <!--image here -->
+                            <img src="assets/images/SSR_best_neighbor_in_neighborhood_FSM.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Finding Best Prediciton of the Modern Northeastern Forest</h5>
+                                <p>Before making predictions about past forests, I had to accurately model current forest composition. Using the squared sum of residulas I found inputs for fire probability and fre resistance that yield the best match.</p>
+                                <button class="btn btn-primary">View Code</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="fragment fragment-four">
+
+            <h3>Technology</h3>
+            <hr class="title-underline">
+            <div class="container">
+                <div class="labels">
+                    <div class="tech">R</div>
+                    <div class="tech">GIS</div>
+                    <div class="tech">Python</div>
+                    <div class="tech">NCO</div>
+                    <div class="tech">Microsoft Excel</div>
+                    <div class="tech">SQL</div>
+                    <div class="tech">HTML5</div>
+                    <div class="tech">JavaScript</div>
+                    <div class="tech">Git</div>
+                    <div class="tech">NodeJS</div>
+                </div>
+            </div>
+
+        </section>
+        <section class="fragment fragment-five">
+            <h3> Education </h3>
+            <hr class="title-underline">
+
+            <!-- Don't forget to swap out the universities and education to match your own-->
+            <div class="container">
+                <h5> The University of Vermont </h5>
+                <p class="credential"> Graduate Research in Fires of Past New England Forests| 2018 - 2021</p>
+                <h5> University of Denver </h5>
+                <p class="credential"> Data Analytics Bootcamp | 2021</p>
+                <h5> Bennington College </h5>
+                <p class="credential"> B.A. Political Science | 2012 - 2016</p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="fragment fragment-six">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>Charlotte Uden</h6>
+
+                        <!--update these links to match your own social media profiles -->
+                        <a href="https://www.linkedin.com/in/charlotte-uden-b79598119/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/charliuden" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="charlotte.uden@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <p class="text-muted copyright">Charlotte Uden &copy; 2021 - 2022 </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
